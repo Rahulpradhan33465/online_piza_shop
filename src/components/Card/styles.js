@@ -25,8 +25,9 @@ export const useStyles = makeStyles({
     objectFit: 'cover',
   },
   container: {
-    height: '80vh',
+    height: '100%',
     width: '100%',
     padding: '20px 5px',
+    marginBottom: '10px',
   },
 });

@@ -8,7 +8,7 @@ const Products = () => {
       <Typography variant="h4" gutterBottom>
         Products
       </Typography>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} justifyContent="center" alignItems="center">
         {data.map((product) => (
           <Grid item xs={12} sm={4} key={product.id}>
             <Card product={product} />
