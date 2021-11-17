@@ -1,0 +1,51 @@
+export const data = [
+  {
+    id: 1,
+    name: 'Monday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza1.jpg',
+    price: 500,
+    stackCount: 3,
+    category: 'small',
+  },
+  {
+    id: 2,
+    name: 'Tuesday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza2.jpg',
+    price: 900,
+    stackCount: 8,
+    category: 'small',
+  },
+
+  {
+    id: 3,
+    name: 'Wednesday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza3.jpg',
+    price: 1500,
+    stackCount: 12,
+    category: 'small',
+  },
+  {
+    id: 4,
+    name: 'Thrusday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza4.jpg',
+    price: 1200,
+    stackCount: 15,
+    category: 'small',
+  },
+  {
+    id: 5,
+    name: 'Friday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza5.jpg',
+    price: 1200,
+    stackCount: 9,
+    category: 'small',
+  },
+  {
+    id: 6,
+    name: 'Saturday Special',
+    poster: 'https://my-pizza-house.herokuapp.com/images/pizza6.jpg',
+    price: 800,
+    stackCount: 9,
+    category: 'small',
+  },
+];
